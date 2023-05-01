@@ -10,7 +10,7 @@ import Profile from './components/profiles/Profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/project2">
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
         <Route path="/Profiles" exact element={<Profiles />} />
